@@ -30,15 +30,14 @@
 
 ### Video Demonstration
 
-
-[![City Portal - Apple Vision Pro](https://i9.ytimg.com/vi_webp/DmVxXlbJAnA/mq2.webp?sqp=COiRp7YG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgTihIMA8=&rs=AOn4CLCsxyOm-vTfosgzHLCZBWXLLlCThQ)](https://youtu.be/DmVxXlbJAnA)
+[![City Portal - Apple Vision Pro](https://github.com/user-attachments/assets/c38f5f64-4035-4a65-a0be-96870b39fdd4)](https://youtu.be/DmVxXlbJAnA)
 
 
 ### Screenshots
 
-<img width="1336" alt="Screenshot 2024-08-24 at 12 32 45" src="https://github.com/user-attachments/assets/a51b3ade-f280-47dc-81f0-3b6e4ec1be01">
-
-<img width="1336" alt="Screenshot 2024-08-24 at 12 32 45" src="https://github.com/user-attachments/assets/8ef06877-e871-4462-9f12-d61c68232b1b">
+<img width="700" alt="Screenshot 2024-08-24 at 12 32 45" src="https://github.com/user-attachments/assets/a51b3ade-f280-47dc-81f0-3b6e4ec1be01">\
+\
+<img width="700" alt="Screenshot 2024-08-24 at 12 32 45" src="https://github.com/user-attachments/assets/8ef06877-e871-4462-9f12-d61c68232b1b">
 
 
 ### Technologies Used
