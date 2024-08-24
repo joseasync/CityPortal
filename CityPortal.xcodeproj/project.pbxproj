@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAE456922C79F8BA0084A5BE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CAE456912C79F8BA0084A5BE /* README.md */; };
+		CAE80EF12C6E41770080DC0A /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = CAE80EF02C6E41770080DC0A /* RealityKitContent */; };
+		CAE80EF32C6E41770080DC0A /* CityPortalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE80EF22C6E41770080DC0A /* CityPortalApp.swift */; };
+		CAE80EF52C6E41770080DC0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE80EF42C6E41770080DC0A /* ContentView.swift */; };
+		CAE80EF72C6E41770080DC0A /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE80EF62C6E41770080DC0A /* ImmersiveView.swift */; };
+		CAE80EF92C6E41780080DC0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE80EF82C6E41780080DC0A /* Assets.xcassets */; };
+		CAE80EFC2C6E41780080DC0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE80EFB2C6E41780080DC0A /* Preview Assets.xcassets */; };
+		CAE80F072C6E41EB0080DC0A /* skybox3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAE80F032C6E41EB0080DC0A /* skybox3.jpg */; };
+		CAE80F082C6E41EB0080DC0A /* skybox1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAE80F042C6E41EB0080DC0A /* skybox1.jpg */; };
+		CAE80F092C6E41EB0080DC0A /* skybox2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAE80F052C6E41EB0080DC0A /* skybox2.jpg */; };
+		CAE80F0A2C6E41EB0080DC0A /* skybox4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAE80F062C6E41EB0080DC0A /* skybox4.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAE456912C79F8BA0084A5BE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CAE80EEB2C6E41770080DC0A /* CityPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE80EEF2C6E41770080DC0A /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		CAE80EF22C6E41770080DC0A /* CityPortalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPortalApp.swift; sourceTree = "<group>"; };
+		CAE80EF42C6E41770080DC0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAE80EF62C6E41770080DC0A /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		CAE80EF82C6E41780080DC0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAE80EFB2C6E41780080DC0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAE80EFD2C6E41780080DC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE80F032C6E41EB0080DC0A /* skybox3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skybox3.jpg; sourceTree = "<group>"; };
+		CAE80F042C6E41EB0080DC0A /* skybox1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skybox1.jpg; sourceTree = "<group>"; };
+		CAE80F052C6E41EB0080DC0A /* skybox2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skybox2.jpg; sourceTree = "<group>"; };
+		CAE80F062C6E41EB0080DC0A /* skybox4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skybox4.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE80EE82C6E41770080DC0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE80EF12C6E41770080DC0A /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAE456932C79FB6F0084A5BE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CAE80F042C6E41EB0080DC0A /* skybox1.jpg */,
+				CAE80F052C6E41EB0080DC0A /* skybox2.jpg */,
+				CAE80F032C6E41EB0080DC0A /* skybox3.jpg */,
+				CAE80F062C6E41EB0080DC0A /* skybox4.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CAE80EE22C6E41770080DC0A = {
+			isa = PBXGroup;
+			children = (
+				CAE456912C79F8BA0084A5BE /* README.md */,
+				CAE80EED2C6E41770080DC0A /* CityPortal */,
+				CAE80EEE2C6E41770080DC0A /* Packages */,
+				CAE80EEC2C6E41770080DC0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE80EEC2C6E41770080DC0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE80EEB2C6E41770080DC0A /* CityPortal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE80EED2C6E41770080DC0A /* CityPortal */ = {
+			isa = PBXGroup;
+			children = (
+				CAE80EF22C6E41770080DC0A /* CityPortalApp.swift */,
+				CAE80EF42C6E41770080DC0A /* ContentView.swift */,
+				CAE80EF62C6E41770080DC0A /* ImmersiveView.swift */,
+				CAE80EF82C6E41780080DC0A /* Assets.xcassets */,
+				CAE80EFD2C6E41780080DC0A /* Info.plist */,
+				CAE456932C79FB6F0084A5BE /* Images */,
+				CAE80EFA2C6E41780080DC0A /* Preview Content */,
+			);
+			path = CityPortal;
+			sourceTree = "<group>";
+		};
+		CAE80EEE2C6E41770080DC0A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CAE80EEF2C6E41770080DC0A /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		CAE80EFA2C6E41780080DC0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAE80EFB2C6E41780080DC0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAE80EEA2C6E41770080DC0A /* CityPortal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE80F002C6E41780080DC0A /* Build configuration list for PBXNativeTarget "CityPortal" */;
+			buildPhases = (
+				CAE80EE72C6E41770080DC0A /* Sources */,
+				CAE80EE82C6E41770080DC0A /* Frameworks */,
+				CAE80EE92C6E41770080DC0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityPortal;
+			packageProductDependencies = (
+				CAE80EF02C6E41770080DC0A /* RealityKitContent */,
+			);
+			productName = CityPortal;
+			productReference = CAE80EEB2C6E41770080DC0A /* CityPortal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE80EE32C6E41770080DC0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CAE80EEA2C6E41770080DC0A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CAE80EE62C6E41770080DC0A /* Build configuration list for PBXProject "CityPortal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAE80EE22C6E41770080DC0A;
+			productRefGroup = CAE80EEC2C6E41770080DC0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE80EEA2C6E41770080DC0A /* CityPortal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAE80EE92C6E41770080DC0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE80F0A2C6E41EB0080DC0A /* skybox4.jpg in Resources */,
+				CAE80F082C6E41EB0080DC0A /* skybox1.jpg in Resources */,
+				CAE80F072C6E41EB0080DC0A /* skybox3.jpg in Resources */,
+				CAE80EFC2C6E41780080DC0A /* Preview Assets.xcassets in Resources */,
+				CAE456922C79F8BA0084A5BE /* README.md in Resources */,
+				CAE80F092C6E41EB0080DC0A /* skybox2.jpg in Resources */,
+				CAE80EF92C6E41780080DC0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE80EE72C6E41770080DC0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE80EF52C6E41770080DC0A /* ContentView.swift in Sources */,
+				CAE80EF32C6E41770080DC0A /* CityPortalApp.swift in Sources */,
+				CAE80EF72C6E41770080DC0A /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAE80EFE2C6E41780080DC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		CAE80EFF2C6E41780080DC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		CAE80F012C6E41780080DC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CityPortal/Preview Content\"";
+				DEVELOPMENT_TEAM = TMBK5Q4AT6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joseasync.CityPortal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		CAE80F022C6E41780080DC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CityPortal/Preview Content\"";
+				DEVELOPMENT_TEAM = TMBK5Q4AT6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joseasync.CityPortal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE80EE62C6E41770080DC0A /* Build configuration list for PBXProject "CityPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE80EFE2C6E41780080DC0A /* Debug */,
+				CAE80EFF2C6E41780080DC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE80F002C6E41780080DC0A /* Build configuration list for PBXNativeTarget "CityPortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE80F012C6E41780080DC0A /* Debug */,
+				CAE80F022C6E41780080DC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CAE80EF02C6E41770080DC0A /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CAE80EE32C6E41770080DC0A /* Project object */;
+}
