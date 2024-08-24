@@ -35,7 +35,8 @@
 
 ### Screenshots
 
-<img width="700" alt="Screenshot 2024-08-24 at 12 32 45" src="https://github.com/user-attachments/assets/a51b3ade-f280-47dc-81f0-3b6e4ec1be01">\
+
+<img width="700" alt="Screenshot 2024-08-24 at 12 32 13" src="https://github.com/user-attachments/assets/d5c2a275-8893-4010-b68b-f82d183b5bd7">\
 \
 <img width="700" alt="Screenshot 2024-08-24 at 12 32 45" src="https://github.com/user-attachments/assets/8ef06877-e871-4462-9f12-d61c68232b1b">
 
